@@ -9,8 +9,7 @@ if (!isset($_SESSION['user'])||$_SESSION['role']!='Teacher') {
 ?>
 <?php
 
-$sid =$fname =$lname = $classroom = $dob = $gender = $address = $subject=" ";
-
+$sid = $fname = $lname = $classroom = $dob = $gender = $address = $subject = $title = $description = "";
 
 if(isset($_GET['update'])){
   $update = "SELECT * FROM subject WHERE sid='".$_GET['update']."'";
@@ -90,10 +89,16 @@ scratch. This page gets rid of all links and provides the needed markup only.
                       $sql = "INSERT INTO subject (sid,title,description) VALUES ( '".$sid."', '".$title."','".$description."')";
 
                       if ($conn->query($sql) === TRUE) {
-                       echo "<script type='text/javascript'> var x = document.getElementById('truemsg');
-                       x.style.display='block';</script>";
-                     } else {
-                     }
+    // Show success message
+    echo "<script type='text/javascript'> 
+            var x = document.getElementById('truemsg');
+            x.style.display='block';
+          </script>";
+
+    // Clear the form fields
+    $sid = $title = $description = "";
+} else {
+}
 
                    } catch (Exception $e) {
 
@@ -187,7 +192,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <!-- /.box-body -->
 
               <div class="box-footer">
-                <button type="submit" name="submit" value="submit" class="btn btn-primary">Update Subject</button>
+                <button type="submit" name="submit" value="submit" class="btn btn-primary">Add Subject</button>
               </div>
             </form>
 
