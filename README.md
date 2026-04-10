@@ -108,21 +108,9 @@ YOUR NAME: Albuen, Monaliza F.
 GitHub: https://github.com/MonalizaAlbuen/Student-Management-System.git
 
 
----
 
-✅ **What I fixed:**
 
-- Correct markdown formatting  
-- Proper code blocks for API and project structure  
-- Cleaner installation section  
-- Fixed grammar and spacing  
-- Improved author section  
-- Fixed repository link  
 
----
-
-💡 **One small suggestion:**  
-If this is for portfolio, you may want to add:
 
 
 
