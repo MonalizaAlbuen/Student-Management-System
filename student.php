@@ -225,7 +225,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
                 <div class="form-group">
                   <label for="exampleInputPassword1">Email</label>
-                  <input name="email" type="email" class="form-control" id="exampleInputPassword1"  required value=<?php echo "'".$email."'"; ?>>
+                  <input type="text" name="email" value="<?php echo $email ?? ''; ?>">
                 </div>
 
 
