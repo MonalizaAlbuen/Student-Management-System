@@ -60,7 +60,7 @@ student-management-system/
 ├── assets/
 ├── images/
 ├── database/
-│ └── library_db.sql
+│ └── student-management-system.sql
 │
 ├── includes/
 │ ├── header.php
