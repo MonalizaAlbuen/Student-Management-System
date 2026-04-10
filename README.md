@@ -124,6 +124,5 @@ GitHub: https://github.com/MonalizaAlbuen/Student-Management-System.git
 💡 **One small suggestion:**  
 If this is for portfolio, you may want to add:
 
-<img width="1912" height="908" alt="image" src="https://github.com/user-attachments/assets/e070fff7-a0e6-48aa-a6d1-aa61e5fc57dd" />
 
 
