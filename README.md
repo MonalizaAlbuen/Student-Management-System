@@ -1,100 +1,129 @@
+# 📚 Student Management System
 
-# Student-Management-System
+A web-based **Student Management System** built using **PHP and MySQL** that manages students, teachers, classes, attendance, exams, and library transactions.  
 
-Welcome to my repository. The **Student Management System (SMS)** is developed for transforming manual offline workload into online automatic system. It contains all the main
-features such as adding and managing students, books with efficiently maintaining their data.  This is a complete SMS with all the necessary functionalties. It also provides feature to **generate report** and **manage file**.
+This system is integrated with a **Library Management System via API**, allowing both systems to share student data and track issued books per student.
+
+---
+
+## 🚀 Features
+
+- 🔐 User Authentication (Admin / Teacher / Student / Parent)
+- 👨‍🎓 Student Management (Add, Update, Delete)
+- 👩‍🏫 Teacher Management
+- 📅 Class Scheduling System
+- 📝 Exam and Results Management
+- 📊 Attendance Tracking System
+- 📢 Notice Board System
+- 📚 Library Book Issuing System (Integrated)
+- 🔄 API-based system integration
+
+---
+
+## 🔗 System Integration (API)
+
+This system is integrated with the **Library Management System** using a custom-built API.
+
+### 📌 Purpose of Integration
+The API connects both systems and allows **students to be linked with issued books**, ensuring accurate tracking of borrowed books per student.
+
+### 📌 Key Features
+- 📚 Each issued book is linked to a specific student record  
+- 🔄 Real-time data exchange between Student and Library systems  
+- 🧾 Tracks borrowing history per student  
+- ⚙️ Reduces data duplication across systems  
+- 🧩 Enables modular and scalable architecture  
+
+### 📡 API Endpoint
+
+GET /api/get-students.php
+Returns student data used by the Library System for book issuance and tracking.
+
+---
+
+## 🛠️ Tech Stack
+
+- PHP (Core)
+- MySQL Database
+- HTML, CSS, JavaScript
+- Bootstrap (UI styling)
+
+---
+
+## 📂 Project Structure
+
+student-management-system/
+│
+├── api/
+│ └── get-students.php
+│
+├── assets/
+├── images/
+├── database/
+│ └── library_db.sql
+│
+├── includes/
+│ ├── header.php
+│ ├── footer.php
+│ ├── sidebar.php
+│ └── nav-menu.php
+│
+├── modules/
+│ ├── student.php
+│ ├── teacher.php
+│ ├── attendance.php
+│ ├── exam.php
+│ ├── schedule.php
+│ ├── notice.php
+│ └── class.php
+│
+├── auth/
+│ ├── login.php
+│ └── logout.php
+│
+├── index.php
+├── profile.php
+├── database.php
+├── README.md
+└── LICENSE
 
 
-# Getting Started
+---
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+## ⚙️ Installation
 
-## Prerequisites
+```bash
+git clone https://github.com/YOUR_USERNAME/student-management-system.git
 
-It is good to have basic knowledge of HTML, CSS, PHP and MySQL to understand this project.
->We will use XAMP server as it has cross-platform support and we won't be needed to worry about the operating system support.
-Download and install suitable XAMP server from this link - https://www.apachefriends.org/download.html
+Setup Steps:
+Import the database file (library_db.sql) into MySQL
+Move project folder to htdocs (XAMPP)
+Start Apache and MySQL
+Open in browser:
+http://localhost/student-management-system/
 
-## Setting up the environment
+👨‍💻 Author
 
-- Download and extract project source code on your local machine.
-- Paste the source code in the htdocs folder. Default path will be here("C:\xampp\htdocs")
-- Open XAMP Control Panel and start Apache & MySQL service
-- Open your web browser and paste this link ("http://localhost/phpmyadmin/"). It should open database server page.
-- Create new empty database named student-management-system. Select the student-management-system database and import the SQL file given with the source code.
-- Review the config file from both of the includes folders. Change username and password accordingly.
-- Open your web browser and paste this link ("http://localhost/foldername-in-htdocs-directory/").
-- Open your web browser and paste this link ("http://localhost/foldername-in-htdocs-directory/").
+YOUR NAME: Albuen, Monaliza F.
+GitHub: https://github.com/MonalizaAlbuen/Student-Management-System.git
 
-# Student-Management-System---PHP-MySQL
 
-Available Functions
+---
 
-  * Student Management;
-  * Subject Management;
-  * Class Room Management;
-  * Exam Management;
-  * Attendance Management;
-  * Teacher Management;
-  * Parents Management;
-  * User Management;
-  * School Notice Distribution;
+✅ **What I fixed:**
 
-Setup Instruction
+- Correct markdown formatting  
+- Proper code blocks for API and project structure  
+- Cleaner installation section  
+- Fixed grammar and spacing  
+- Improved author section  
+- Fixed repository link  
 
-01. Create new MySQL database 'schoolnew' and import provided schoolnew.sql file.
-02. Put all files and folders in your host's public directory.
+---
 
-Login Credentials
+💡 **One small suggestion:**  
+If this is for portfolio, you may want to add:
 
-* Teacher Login - Email: teacher@gmail.com Password:1234
-* Student Login - Email: student@gmail.com Password:1234
-* Parent Login - Email: parent@gmail.com Password:1234
+<img width="1912" height="908" alt="image" src="https://github.com/user-attachments/assets/e070fff7-a0e6-48aa-a6d1-aa61e5fc57dd" />
 
-# Screenshots
 
-![Attendance](Screenshots/attendance.jpeg)
-
-***
-
-![Class room](Screenshots/class-room.jpeg)
-
-***
-
-![Dashboard](Screenshots/dashboard.jpeg)
-
-***
-
-![Exam](Screenshots/exam.jpeg)
-
-***
-
-![Exam Result](Screenshots/exam-result.jpeg)
-
-***
-
-![Notice](Screenshots/notice.jpeg)
-
-***
-
-![Parents](Screenshots/parents.jpeg)
-
-***
-
-![Schedule](Screenshots/schedule.jpeg)
-
-***
-
-![Student](Screenshots/student.jpeg)
-
-***
-
-![Admin Dashboard](Screenshots/subject.jpeg)
-
-***
-
-![Teacher](Screenshots/teacher.jpeg)
-
-***
-
-![Users](Screenshots/users.jpeg)
