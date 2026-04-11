@@ -103,7 +103,7 @@ http://localhost/student-management-system/
 
 👨‍💻 Author
 
-YOUR NAME: Albuen, Monaliza F.
+NAME: Albuen, Monaliza F.
 GitHub: https://github.com/MonalizaAlbuen/Student-Management-System.git
 
 Use the following credentials to access the system after installation:
