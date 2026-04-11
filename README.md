@@ -1,6 +1,6 @@
 # 📚 Student Management System
 
-A web-based **Student Management System** built using **PHP and MySQL** that manages students, teachers, classes, attendance, exams, and library transactions.  
+A web-based **Student Management System** built using **PHP and MySQL** that manages students, teachers, classes, attendance, exams, and library transactions by integrating with library management system.
 
 This system is integrated with a **Library Management System via API**, allowing both systems to share student data and track issued books per student.
 
