@@ -91,6 +91,8 @@ student-management-system/
 📡 API Endpoints Used
 
 👨‍🎓 Get Students GET http://localhost/Student-Management-System/api/get_students.php
+📌 Retrieves student records from the Student Management System for use in the Library System.
+
 
 
 👨‍💻 Author
@@ -98,10 +100,6 @@ student-management-system/
 NAME: Albuen, Monaliza F.
 GitHub: 👉 https://github.com/MonalizaAlbuen/Student-Management-System
 
-
-📌 Retrieves student records from the Student Management System for use in the Library System.
-
----
 
 ## ⚙️ Installation
 
