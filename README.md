@@ -102,15 +102,16 @@ Open in browser:
 http://localhost/student-management-system/
 
 📡 API Endpoints Used
-
 👨‍🎓 Get Students
-http://localhost/Student-Management-System/api/get_students.php
+
+👉 http://localhost/Student-Management-System/api/get_students.php
+
+📌 Returns student data used by the Library System for book issuance and tracking.
 
 👨‍💻 Author
 
 NAME: Albuen, Monaliza F.
-GitHub: https://github.com/MonalizaAlbuen/Student-Management-System.git
-
+GitHub: 👉 https://github.com/MonalizaAlbuen/Student-Management-System
 
 
 Use the following credentials to access the system after installation:
