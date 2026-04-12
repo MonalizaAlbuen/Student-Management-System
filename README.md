@@ -101,15 +101,17 @@ Start Apache and MySQL
 Open in browser:
 http://localhost/student-management-system/
 
+📡 API Endpoints Used
+
+👨‍🎓 Get Students
+http://localhost/Student-Management-System/api/get_students.php
+
 👨‍💻 Author
 
 NAME: Albuen, Monaliza F.
 GitHub: https://github.com/MonalizaAlbuen/Student-Management-System.git
 
-📡 API Endpoint
-👨‍🎓 Get Students
 
-👉 http://localhost/Student-Management-System/api/get_students.php
 
 Use the following credentials to access the system after installation:
 👤 Username: teacher@gmail.com
