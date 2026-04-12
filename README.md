@@ -86,6 +86,11 @@ student-management-system/
 ├── README.md
 └── LICENSE
 
+📡 API Endpoints Used
+
+👨‍🎓 Get Students GET http://localhost/Student-Management-System/api/get_students.php
+
+📌 Retrieves student records from the Student Management System for use in the Library System.
 
 ---
 
@@ -100,13 +105,6 @@ Move project folder to htdocs (XAMPP)
 Start Apache and MySQL
 Open in browser:
 http://localhost/student-management-system/
-
-📡 API Endpoints Used
-👨‍🎓 Get Students
-
-👉 http://localhost/Student-Management-System/api/get_students.php
-
-📌 Returns student data used by the Library System for book issuance and tracking.
 
 👨‍💻 Author
 
