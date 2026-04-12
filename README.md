@@ -33,12 +33,6 @@ The API connects both systems and allows **students to be linked with issued boo
 - ⚙️ Reduces data duplication across systems  
 - 🧩 Enables modular and scalable architecture  
 
-### 📡 API Endpoint
-
-GET /api/get-students.php
-Returns student data used by the Library System for book issuance and tracking.
-
----
 
 ## 🛠️ Tech Stack
 
@@ -91,6 +85,7 @@ student-management-system/
 📡 API Endpoints Used
 
 👨‍🎓 Get Students GET http://localhost/Student-Management-System/api/get_students.php
+
 📌 Retrieves student records from the Student Management System for use in the Library System.
 
 
@@ -98,12 +93,14 @@ student-management-system/
 👨‍💻 Author
 
 NAME: Albuen, Monaliza F.
+
 GitHub: 👉 https://github.com/MonalizaAlbuen/Student-Management-System
 
 
 ## ⚙️ Installation
 
 --bash--
+
 git clone https://github.com/YOUR_USERNAME/student-management-system.git
 
 Setup Steps:
