@@ -114,7 +114,9 @@ http://localhost/student-management-system/
 
 Use the following credentials to access the system after installation:
 👤 Username: teacher@gmail.com
+
 🔒 Password: teacher123
+
 ⚠️ These credentials are provided for demonstration purposes. It is recommended to change the password after installation.
 
 
