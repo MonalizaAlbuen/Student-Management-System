@@ -107,10 +107,9 @@ NAME: Albuen, Monaliza F.
 GitHub: https://github.com/MonalizaAlbuen/Student-Management-System.git
 
 📡 API Endpoint
+👨‍🎓 Get Students
 
-GET Students:
-
-GET http://localhost/Student-Management-System/api/get_students.php
+👉 http://localhost/Student-Management-System/api/get_students.php
 
 Use the following credentials to access the system after installation:
 👤 Username: teacher@gmail.com
