@@ -108,11 +108,13 @@ Import the database file (library_db.sql) into MySQL
 Move project folder to htdocs (XAMPP)
 Start Apache and MySQL
 Open in browser:
+
 http://localhost/student-management-system/
 
 
 
 Use the following credentials to access the system after installation:
+
 👤 Username: teacher@gmail.com
 
 🔒 Password: teacher123
